@@ -25,7 +25,7 @@
    with any preset below.
    ================================= */
 
-/* 1. NEON DARK */
+/* 1. NEON DARK 
 :root {
   --page: #070e20;
   --surface: #101d35;
@@ -40,7 +40,7 @@
   --input-radius: 12px;
   --button-radius: 30px;
 }
-
+*/
 
 /* 2. CLEAN MINIMAL
 :root {
@@ -161,7 +161,7 @@
 }
 */
 
-/* 9. LUXURY MIDNIGHT
+/* 9. LUXURY MIDNIGHT*/
 :root {
   --page: #090909;
   --surface: #171717;
@@ -176,7 +176,7 @@
   --input-radius: 10px;
   --button-radius: 30px;
 }
-*/
+
 
 /* 10. NATURE GREEN
 :root {
