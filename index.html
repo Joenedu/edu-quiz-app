@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>API</title>
+  <link rel="stylesheet" href="./quiz-ui.css">
+  <script src="./quiz.js" charset="utf-8" defer></script>
+</head>
+<body>
+  <h1>Quiz App</h1> 
+  <p>Brain Exercise: Test your knowledge</p>
+  <label for="question-size">No of Questions:</label>
+  <input type="number" id="question-size">
+    <label for="category">Select Category:</label>
+  <select name="category" id="category">
+    <option value="-1">Select</option>
+    <option value="18">Computers</option>
+    <option value="27">Animals</option>
+    <option value="9">General Knowledge</option>
+  </select>
+  <label for="difficulty-level">Select Difficulty:</label>
+  <select name="difficulty-level" id="difficulty-level">
+    <option value="-1">Select</option>
+    <option value="hard">Hard</option>
+    <option value="medium">Medium</option>
+    <option value="easy">Easy</option>
+  </select>
+  <button class="p-m m-s" id="fetchBtn">Fetch Quiz</button>
+  <div id="output" class="output p-s">
+  </div>
+  <footer>
+    App still under development - &copy; 2026
+    <p><em>Developed by:</em><br>
+    Ani Chinedu Joseph<br>
+    chinedujosephani.dev@gmail.com
+    </p>
+  </footer>
+</body>
+
+</html>

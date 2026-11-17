@@ -1,0 +1,389 @@
+
+/* =================================
+   QUIZ APP - DESIGN SYSTEM
+   ================================= */
+
+/* DEFAULT THEME: CLEAN MINIMAL 
+:root {
+  --page: #f4f7fc;
+  --surface: #ffffff;
+  --surface-alt: #edf3ff;
+  --text: #17233e;
+  --muted: #71809b;
+  --accent: #2864e8;
+  --accent-2: #6747ed;
+  --border: #dce5f3;
+  --shadow: 0 12px 35px rgba(27, 54, 100, .08);
+  --radius: 18px;
+  --input-radius: 12px;
+  --button-radius: 14px;
+}*/
+
+/* =================================
+   TEN DESIGN PRESETS
+   Replace the DEFAULT THEME block
+   with any preset below.
+   ================================= */
+
+/* 1. NEON DARK */
+:root {
+  --page: #070e20;
+  --surface: #101d35;
+  --surface-alt: #162944;
+  --text: #f1f7ff;
+  --muted: #9aacc9;
+  --accent: #00c8ff;
+  --accent-2: #d946ef;
+  --border: #284466;
+  --shadow: 0 15px 40px #0008;
+  --radius: 20px;
+  --input-radius: 12px;
+  --button-radius: 30px;
+}
+
+
+/* 2. CLEAN MINIMAL
+:root {
+  --page: #f4f7fc;
+  --surface: #ffffff;
+  --surface-alt: #edf3ff;
+  --text: #17233e;
+  --muted: #71809b;
+  --accent: #2864e8;
+  --accent-2: #6747ed;
+  --border: #dce5f3;
+  --shadow: 0 12px 35px #1b366414;
+  --radius: 18px;
+  --input-radius: 12px;
+  --button-radius: 14px;
+}
+*/
+
+/* 3. GRADIENT PREMIUM
+:root {
+  --page: linear-gradient(145deg, #5b5fe9, #bc4cc7);
+  --surface: #ffffff;
+  --surface-alt: #f4edff;
+  --text: #29224d;
+  --muted: #83789e;
+  --accent: #7542eb;
+  --accent-2: #e444a8;
+  --border: #e9ddfa;
+  --shadow: 0 15px 40px #30145a35;
+  --radius: 24px;
+  --input-radius: 13px;
+  --button-radius: 30px;
+}
+*/
+
+/* 4. MATERIAL BLUE
+:root {
+  --page: #edf4ff;
+  --surface: #ffffff;
+  --surface-alt: #dceaff;
+  --text: #102d50;
+  --muted: #647b9b;
+  --accent: #0878d1;
+  --accent-2: #1557c0;
+  --border: #c9ddf6;
+  --shadow: 0 8px 24px #164c8018;
+  --radius: 24px;
+  --input-radius: 12px;
+  --button-radius: 50px;
+}
+*/
+
+/* 5. PLAYFUL COLORFUL
+:root {
+  --page: #fff8ed;
+  --surface: #ffffff;
+  --surface-alt: #fff0d8;
+  --text: #362d36;
+  --muted: #8b7b78;
+  --accent: #ff9e19;
+  --accent-2: #ff5c54;
+  --border: #f3dfc9;
+  --shadow: 0 10px 30px #9b65301c;
+  --radius: 25px;
+  --input-radius: 15px;
+  --button-radius: 50px;
+}
+*/
+
+/* 6. GLASSMORPHISM
+:root {
+  --page: linear-gradient(135deg, #164e9d, #58a9d5);
+  --surface: #ffffff24;
+  --surface-alt: #ffffff38;
+  --text: #ffffff;
+  --muted: #e1f0ff;
+  --accent: #d5edff;
+  --accent-2: #80c7ff;
+  --border: #ffffff65;
+  --shadow: 0 12px 35px #06234b40;
+  --radius: 22px;
+  --input-radius: 14px;
+  --button-radius: 16px;
+}
+*/
+
+/* 7. DARK TECH 
+:root {
+  --page: #020f24;
+  --surface: #091b33;
+  --surface-alt: #102b48;
+  --text: #e4f7ff;
+  --muted: #8ba6ba;
+  --accent: #00d8a4;
+  --accent-2: #00a7ff;
+  --border: #16405d;
+  --shadow: 0 12px 35px #0008;
+  --radius: 16px;
+  --input-radius: 9px;
+  --button-radius: 10px;
+}
+*/
+
+/* 8. SOFT PASTEL
+:root {
+  --page: #f5f3ff;
+  --surface: #ffffff;
+  --surface-alt: #eeeaff;
+  --text: #29294d;
+  --muted: #8886aa;
+  --accent: #7544ee;
+  --accent-2: #a44cf4;
+  --border: #e1dcf8;
+  --shadow: 0 12px 35px #51409b14;
+  --radius: 26px;
+  --input-radius: 15px;
+  --button-radius: 16px;
+}
+*/
+
+/* 9. LUXURY MIDNIGHT
+:root {
+  --page: #090909;
+  --surface: #171717;
+  --surface-alt: #242019;
+  --text: #fff7df;
+  --muted: #b7a982;
+  --accent: #e9b83e;
+  --accent-2: #ffda7a;
+  --border: #574523;
+  --shadow: 0 15px 40px #0009;
+  --radius: 18px;
+  --input-radius: 10px;
+  --button-radius: 30px;
+}
+*/
+
+/* 10. NATURE GREEN
+:root {
+  --page: #eaf5ed;
+  --surface: #ffffff;
+  --surface-alt: #e0f1e4;
+  --text: #173c29;
+  --muted: #728b78;
+  --accent: #16864a;
+  --accent-2: #36ae70;
+  --border: #c9e4d0;
+  --shadow: 0 12px 35px #1b65301a;
+  --radius: 22px;
+  --input-radius: 12px;
+  --button-radius: 14px;
+}
+*/
+
+/* =================================
+   GLOBAL STYLING
+   ================================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  padding: 30px 18px;
+  background: var(--page);
+  color: var(--text);
+  font-family: Inter, "Segoe UI", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  transition: background .3s ease, color .3s ease;
+}
+
+
+/* APP HEADING */
+
+h1 {
+  width: 100%;
+  max-width: 520px;
+  margin-top: 20px;
+  font-size: clamp(30px, 7vw, 42px);
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+
+p {
+  max-width: 520px;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+/* FORM LABELS */
+
+label {
+  width: 100%;
+  max-width: 520px;
+  font-size: 14px;
+  font-weight: 650;
+  margin-top: 8px;
+}
+
+/* INPUTS AND SELECTS */
+
+input,
+select {
+  width: 100%;
+  max-width: 520px;
+  min-height: 49px;
+  padding: 0 15px;
+  border: 1px solid var(--border);
+  border-radius: var(--input-radius);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 15px;
+  outline: none;
+  transition: .25s ease;
+  box-shadow: 0 2px 5px #00000005;
+}
+
+input:focus,
+select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px
+    color-mix(in srgb, var(--accent) 17%, transparent);
+}
+
+input::placeholder {
+  color: var(--muted);
+}
+
+/* FETCH BUTTON */
+
+button {
+  width: 100%;
+  max-width: 520px;
+  min-height: 53px;
+  margin-top: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: var(--button-radius);
+  background: linear-gradient(
+    110deg,
+    var(--accent),
+    var(--accent-2)
+  );
+  color: #fff;
+  font-size: 16px;
+  font-weight: 750;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: transform .2s ease, filter .2s ease;
+}
+
+button:hover {
+  filter: brightness(1.08);
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: scale(.97);
+}
+
+/* QUIZ OUTPUT */
+
+.output {
+  width: 100%;
+  max-width: 520px;
+  min-height: 130px;
+  margin-top: 9px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.output:empty::before {
+  content: "Your quiz will appear here...";
+  display: block;
+  padding: 28px 5px;
+  color: var(--muted);
+  text-align: center;
+  font-size: 14px;
+}
+
+/* QUIZ CONTENT ADDED BY JAVASCRIPT */
+
+.output > * {
+  max-width: 100%;
+}
+
+.output button {
+  width: auto;
+  max-width: 100%;
+  min-height: 42px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (min-width: 600px) {
+  body {
+    padding: 45px 24px;
+  }
+
+  h1 {
+    margin-top: 35px;
+  }
+
+  .output {
+    padding: 28px;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    padding: 20px 13px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  input,
+  select {
+    min-height: 46px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: .01ms !important;
+  }
+}
